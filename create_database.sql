@@ -1,4 +1,3 @@
-drop database if exists dbEnquete;
 create database dbEnquete;
 use dbEnquete;
 
@@ -25,7 +24,3 @@ clefaut varchar(1),
 CONSTRAINT pk_questions PRIMARY KEY(cle,rang),
 CONSTRAINT fk_questions_cle FOREIGN KEY(cle) REFERENCES questionnaire(cle)
 );
-
-xaxaxaxaxaxaxaxaxaxaxa
-
-caca caca
