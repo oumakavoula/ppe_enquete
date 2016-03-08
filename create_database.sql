@@ -26,4 +26,6 @@ CONSTRAINT pk_questions PRIMARY KEY(cle,rang),
 CONSTRAINT fk_questions_cle FOREIGN KEY(cle) REFERENCES questionnaire(cle)
 );
 
-xaxaxaxaxaxa
+xaxaxaxaxaxaxaxaxaxaxa
+
+caca caca
