@@ -1,3 +1,19 @@
-.container{
-	background-color:#424242; 
+body{
+	background-color: #0277bd ; 
+	color:white;
+}
+.titre-entete{
+	color:white;
+	text-align: center;
+	font-size: 50px;
+} 
+.input-field label{
+	color:white;
+}
+
+input[type="text"]:focus:not([readonly])+label{
+	color:white;
+}
+input[type=text]:focus:not([readonly]){
+	border-bottom: white;
 }
